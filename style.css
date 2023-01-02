@@ -1,19 +1,26 @@
+.legend{ 
+   padding: 0%;
+}
 
-
+body{
+   margin: 0%;
+}
 
 .hmain{
-
+padding: 9px;
 display: flex;
-font-size:  20px;
+font-size:  15px;
 text-align: center;
 justify-content: space-between;
-text-align: center;
-background-color: rgb(85, 240, 85);
+color: white;
+font-weight: bold ; 
+background-color: #4ab540;
 
 }
 
-#hone
+#phone
 {
+    
 
 
 }
@@ -24,13 +31,44 @@ background-color: rgb(85, 240, 85);
 
 
 }
-#top2{
-
+.top2{
 display: flex;
-border-style: solid;    
+background-color: white
+
+}
+.menu-top{
+
+flex-grow: 1;    
+display: flex;
+align-items: center;
+background-color: white;
+justify-content: center;
 
 }
 
+a:hover{
+   text-decoration: underline;
+   color: #15830b;
+
+}
+
+.list{
+
+display: flex;
+justify-content: space-between;
+list-style: none;
+padding: 0px;
+}
+a{
+      text-decoration: none;
+text-transform: uppercase;
+   }     
+li{
+
+   border: 1px;
+   padding: 0px 50px;
+   margin: 0%;
+}
 #heading
 {
 margin: 0%;
@@ -74,5 +112,32 @@ height: 200px;
 background-color: azure;
 width: 35%;
 height: 200px;
+}
 
+.main-page-background-image{
+width: auto;
+height: auto;
+border-bottom: 50px solid black ;
+border-top: 50px solid black ;
+display: block;
+margin-left: auto; 
+margin-right: auto;
+}
+
+.pic-with-text{
+
+   max-width: 100%;
+}
+.alignright{
+   float: right;
+   margin: 0 0 10px 30px;
+}
+.detailed-material{
+   margin: 50px 50px 50px 50px;
+}   
+ 
+p{
+   font: normal 16px / 28px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+   word-spacing: normal;
+   color: #555555;
 }
