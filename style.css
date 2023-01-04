@@ -1,4 +1,5 @@
 .legend{ 
+ 
    padding: 0%;
 }
 
@@ -18,36 +19,27 @@ background-color: #4ab540;
 
 }
 
-#phone
-{
-    
-
-
-}
-
-#htwo
-{
-
-
-
-}
 .top2{
 display: flex;
 background-color: white
 
 }
 .menu-top{
-
-flex-grow: 1;    
+    
 display: flex;
 align-items: center;
 background-color: white;
 justify-content: center;
+text-decoration: underline;
 
 }
+.nav:hover{
+   text-decoration: none;
+   color: #15830b;   
 
+}
 a:hover{
-   text-decoration: underline;
+   text-decoration: none;
    color: #15830b;
 
 }
@@ -59,9 +51,8 @@ justify-content: space-between;
 list-style: none;
 padding: 0px;
 }
-a{
-      text-decoration: none;
-text-transform: uppercase;
+.nav{
+
    }     
 li{
 
@@ -114,30 +105,100 @@ width: 35%;
 height: 200px;
 }
 
+.main-image{
+   background-color: black;
+   
+}
 .main-page-background-image{
 width: auto;
 height: auto;
-border-bottom: 50px solid black ;
-border-top: 50px solid black ;
 display: block;
 margin-left: auto; 
 margin-right: auto;
+background-size: contain ;
+background-position: center center;
+visibility: inherit;
 }
 
 .pic-with-text{
-
+   background-color: white ;
    max-width: 100%;
-}
-.alignright{
    float: right;
    margin: 0 0 10px 30px;
+   width: 511px; 
+   height: 383px;
+}
+
+.image-1601{
+
+   height: 95%;
+}
+h2{
+   font: normal bold 40px / 50px "Roboto Slab", Helvetica, Arial, Verdana, sans-serif;
+    text-transform: none;
+    color: black;
 }
 .detailed-material{
-   margin: 50px 50px 50px 50px;
+   margin: auto;
+   max-width: 1300px;
+   align-content: center;
+   display: block;      
 }   
  
+.website-link{
+
+font: normal 16px / 28px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+word-spacing: normal;
+text-transform: lowercase;
+text-decoration: underline;
+}
 p{
+   display: block;
+   margin-block-start: 1em;
+   margin-block-end: 1em;
+   margin-inline-start: 0px;
+   margin-inline-end: 0px;
    font: normal 16px / 28px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
    word-spacing: normal;
    color: #555555;
+
+}
+
+
+.grand-parent-div-flex{
+background-color: rgba(214, 177, 131, 0.377);
+padding: 20px;
+display: flex;
+justify-content: space-around;
+min-height: 200px;
+max-width: 1300px;
+margin: auto;
+}
+
+.parent-div-flex{
+background-color: aquamarine;
+width: 230px;
+height: 230px;
+display: flex;
+padding: 10px;
+flex-direction: column;
+
+}
+.parent-div-flex-common{
+width: 330px;
+}
+
+.child-div-flex1{
+
+background-color: #4ab540;
+
+height: 200px;
+margin-bottom: 5px;
+}
+
+.child-div-flex2{
+background-color: #3f4d01;
+height: 30px;
+text-align: center;
+color: white;
 }
