@@ -133,10 +133,22 @@ visibility: inherit;
 
    height: 95%;
 }
+
+.caption-1601{
+
+   margin-top: 2px;
+   font-size: 13px;
+    line-height: 25px;
+}
 h2{
    font: normal bold 40px / 50px "Roboto Slab", Helvetica, Arial, Verdana, sans-serif;
     text-transform: none;
     color: black;
+    text-align: left;
+    max-width: 1300px;
+}
+.h2-div{
+   margin: auto;
 }
 .detailed-material{
    margin: auto;
@@ -182,16 +194,10 @@ height: 230px;
 display: flex;
 padding: 10px;
 flex-direction: column;
-
-}
-.parent-div-flex-common{
-width: 330px;
 }
 
 .child-div-flex1{
-
-background-color: #4ab540;
-
+background-color: #4cf23d;
 height: 200px;
 margin-bottom: 5px;
 }
@@ -201,4 +207,18 @@ background-color: #3f4d01;
 height: 30px;
 text-align: center;
 color: white;
+}
+
+.h2-mid-flex{
+max-width: 1300px;
+margin: auto;
+}
+.h2-mid{
+
+   text-align: center;
+   font-weight: bold;
+    margin-bottom: 30px;
+}
+.child-div-flex-1:hover{
+
 }
