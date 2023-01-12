@@ -1,5 +1,5 @@
 .legend{ 
- 
+
    padding: 0%;
 }
 
@@ -7,36 +7,72 @@ body{
    margin: 0%;
 }
 
-.hmain{
-padding: 9px;
-display: flex;
-font-size:  15px;
-text-align: center;
-justify-content: space-between;
-color: white;
-font-weight: bold ; 
-background-color: #4ab540;
+.htwo{
+padding-right: 15px;
 
 }
 
-.top2{
-display: flex;
-background-color: white
+.div-image{
+max-width: 20%;
 
 }
+
 .menu-top{
-    
-display: flex;
-align-items: center;
-background-color: white;
-justify-content: center;
-text-decoration: underline;
+   position: fixed;
+   top: 0%;
+   background-color: white;
+   width: 100%;
+   border: #20201e;
+   display: flex;
+   
+}
+.logo-div{
+   background-color: #white;
+      
+}
+.logo{
+list-style: none;
+justify-content: left;
+margin-left: 20%;
+}
+
+.list{
+   background-color: white;
+   list-style: none;
+   display: flex;
+   width: 100% ;
+   justify-content: space-around;
+   align-items: center;
+   font: normal bold 12px / 20px "Roboto Slab", Helvetica, Arial, Verdana, sans-serif;
+   text-transform: uppercase; 
+   
+}
+.hmain{
+
+      display: flex;
+      font-size:  15px;
+      text-align: center;
+      justify-content: space-between;
+      color: white;
+      font-weight: bold ; 
+      background-color: #4ab540;
+      margin-top: 82px;
+      height: 28px;
+      padding-top: 10px;
+      padding-left: 40px;
+      padding-right: 40px;
+   }
+
+
 
 }
+
+
+
 .nav:hover{
    text-decoration: none;
    color: #15830b;   
-
+   border-left-color: #3f4d01;
 }
 a:hover{
    text-decoration: none;
@@ -44,21 +80,15 @@ a:hover{
 
 }
 
-.list{
 
-display: flex;
-justify-content: space-between;
-list-style: none;
-padding: 0px;
-}
 .nav{
 
    }     
-li{
+/* li{
 
    border: 1px;
    padding: 0px 50px;
-   margin: 0%;
+   margin: 0%; */
 }
 #heading
 {
@@ -82,7 +112,7 @@ margin-top: 0%;
 
 #one
 { 
-background-color: aqua;
+background-color: white;
 height: 200px;
 width: 35%;
 
@@ -106,19 +136,36 @@ height: 200px;
 }
 
 .main-image{
-   background-color: black;
+  
    
 }
-.main-page-background-image{
-width: auto;
-height: auto;
-display: block;
-margin-left: auto; 
-margin-right: auto;
-background-size: contain ;
-background-position: center center;
-visibility: inherit;
+
+.background-image-main-div{
+   height: 100%;
+   width: 100%;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
+.main-page-background-image{
+background-color: #4cf23d;
+max-height: 450px;
+max-width: 1350px;
+
+}
+/* .main-page-background-image{
+   width: auto;
+   height: 100%;
+   
+   margin-left: auto; 
+   margin-right: auto;
+   background-size: contain ;
+   background-position: center center;
+   visibility: inherit;
+   opacity: 1;
+   } */
 
 .pic-with-text{
    background-color: white ;
@@ -157,13 +204,7 @@ h2{
    display: block;      
 }   
  
-.website-link{
 
-font: normal 16px / 28px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
-word-spacing: normal;
-text-transform: lowercase;
-text-decoration: underline;
-}
 p{
    display: block;
    margin-block-start: 1em;
@@ -178,7 +219,7 @@ p{
 
 
 .grand-parent-div-flex{
-background-color: rgba(214, 177, 131, 0.377);
+background-color: white;
 padding: 20px;
 display: flex;
 justify-content: space-around;
@@ -188,27 +229,42 @@ margin: auto;
 }
 
 .parent-div-flex{
-background-color: aquamarine;
-width: 230px;
+background-color: white;
+width: 270px;
 height: 230px;
 display: flex;
 padding: 10px;
 flex-direction: column;
 }
+.parent-div-flex-with-text{
+   background-color:white;
+   width: 270px;
+   height: 240px;
+   display: flex;
+   padding: 10px;
+   flex-direction: column;
+}
 
 .child-div-flex1{
-background-color: #4cf23d;
+background-color:white;
 height: 200px;
 margin-bottom: 5px;
 }
-
+.child-div-flex1>img{
+   width: 270px;
+}
 .child-div-flex2{
 background-color: #3f4d01;
-height: 30px;
+height: 20px;
 text-align: center;
 color: white;
 }
 
+.days-prices{
+   text-align: center;
+   margin-top: 5px;
+   font-size: 12px;
+}   
 .h2-mid-flex{
 max-width: 1300px;
 margin: auto;
@@ -220,5 +276,74 @@ margin: auto;
     margin-bottom: 30px;
 }
 .child-div-flex-1:hover{
+
+}
+
+/* -------------------mehmood malik ----------------------- */
+
+.mehmood-malik-div-for-centre{
+
+   background-color: #20201e;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+}
+
+
+.mehmood-malik-div{
+   height: 160px;  
+   background-color: white;
+   margin-bottom: 20px;
+   display: flex;
+   justify-content: center ;
+   max-width: 1300px;
+   
+   
+}
+
+.mehmood-malik-pic-div{
+   height: 150px;
+   width: 10%;
+   background-color:white;
+   display: flex;
+   align-items: center;
+
+
+}
+.mehmood-malik-text{
+   margin-top: 0%;
+   height: 100px;
+   width: 90%;
+   background-color:white;
+   max-width: 1300px
+}
+.mehmood-malik-text>h2{
+
+   margin: 0%;
+}
+
+.Accredited{
+background-color: white;
+max-width: 1300px;
+height: 400px;
+
+}
+
+.Accredited-list{
+
+   font: normal 16px / 28px "Open Sans", Helvetica, Arial, Verdana, sans-serif;
+    word-spacing: normal;
+    color: #555555;
+}
+.Accredited>ul>li{
+   margin-top: 5px;
+}
+
+
+span{
+
+color: rgb(109, 108, 108);
+font-weight: bold;
 
 }
