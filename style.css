@@ -34,6 +34,7 @@ max-width: 20%;
 list-style: none;
 justify-content: left;
 margin-left: 20%;
+
 }
 
 .list{
@@ -45,6 +46,7 @@ margin-left: 20%;
    align-items: center;
    font: normal bold 12px / 20px "Roboto Slab", Helvetica, Arial, Verdana, sans-serif;
    text-transform: uppercase; 
+
    
 }
 .hmain{
@@ -56,34 +58,49 @@ margin-left: 20%;
       color: white;
       font-weight: bold ; 
       background-color: #4ab540;
-      margin-top: 82px;
-      height: 28px;
+      margin-top: 70px;
+      min-height: 40px;
       padding-top: 10px;
       padding-left: 40px;
       padding-right: 40px;
-   }
-
-
-
 }
+
+
 
 
 
 .nav:hover{
    text-decoration: none;
-   color: #15830b;   
-   border-left-color: #3f4d01;
+   color: #3bb730;   
+   cursor: pointer;
+   text-decoration-line: underline;
+   
+   
 }
-a:hover{
+.nav{
+   
+   color: black;
+   text-decoration: none;
+   font-size: large;
+
+}
+.nav-menu{
+   color: black;
+   font-size: 30px;
+   visibility: hidden;
+   margin-top: 30px;
+   margin-right: 20px;
+ 
+
+/* a:hover{
+
    text-decoration: none;
    color: #15830b;
 
-}
+} */
 
 
-.nav{
-
-   }     
+     
 /* li{
 
    border: 1px;
@@ -187,7 +204,7 @@ max-width: 1350px;
    font-size: 13px;
     line-height: 25px;
 }
-h2{
+.h2-div>h2{
    font: normal bold 40px / 50px "Roboto Slab", Helvetica, Arial, Verdana, sans-serif;
     text-transform: none;
     color: black;
@@ -201,7 +218,8 @@ h2{
    margin: auto;
    max-width: 1300px;
    align-content: center;
-   display: block;      
+   display: block; 
+   text-align: justify;     
 }   
  
 
@@ -217,28 +235,30 @@ p{
 
 }
 
+/* --------------------------boxes-------------- */
+
 
 .grand-parent-div-flex{
 background-color: white;
 padding: 20px;
 display: flex;
-justify-content: space-around;
+justify-content: space-between;
 min-height: 200px;
-max-width: 1300px;
+max-width: 1350px;
 margin: auto;
 }
 
 .parent-div-flex{
 background-color: white;
-width: 270px;
-height: 230px;
+width: 290px;
+height: 240px;
 display: flex;
 padding: 10px;
 flex-direction: column;
 }
 .parent-div-flex-with-text{
    background-color:white;
-   width: 270px;
+   width: 290px;
    height: 240px;
    display: flex;
    padding: 10px;
@@ -249,15 +269,19 @@ flex-direction: column;
 background-color:white;
 height: 200px;
 margin-bottom: 5px;
+
 }
 .child-div-flex1>img{
+   
    width: 270px;
 }
 .child-div-flex2{
 background-color: #3f4d01;
-height: 20px;
+min-height: 30px;
+width: 100%;
 text-align: center;
 color: white;
+
 }
 
 .days-prices{
@@ -287,16 +311,16 @@ margin: auto;
    display: flex;
    justify-content: center;
    flex-direction: column;
+   margin-top: 50px;
 
 }
 
 
 .mehmood-malik-div{
-   height: 160px;  
+   min-height: 160px;  
    background-color: white;
-   margin-bottom: 20px;
-   display: flex;
-   justify-content: center ;
+   margin: 2% auto;
+   display: flex; 
    max-width: 1300px;
    
    
@@ -316,7 +340,11 @@ margin: auto;
    height: 100px;
    width: 90%;
    background-color:white;
-   max-width: 1300px
+   max-width: 1300px;
+   align-items: center ;
+   text-align: justify;
+   padding: 20px;
+   padding-top: 0%;
 }
 .mehmood-malik-text>h2{
 
@@ -326,7 +354,8 @@ margin: auto;
 .Accredited{
 background-color: white;
 max-width: 1300px;
-height: 400px;
+height: auto;
+margin: 2% auto;
 
 }
 
@@ -345,5 +374,297 @@ span{
 
 color: rgb(109, 108, 108);
 font-weight: bold;
+
+}
+
+.multi-logos{
+display: flex;
+justify-content: center;
+
+}
+          /* ------------------------------------ending---------------------- */
+
+
+
+
+.ending-div{
+background-color: #555555     ;
+display: flex;
+justify-content: center;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-right: px;
+
+
+}
+.ending-div-text{
+
+   max-width: 680px;
+   height: 700px;
+   
+}
+
+.ending-div-text>p   {
+
+color: white;
+font-size: 24px;
+line-height: 24px;
+text-decoration: solid;
+margin-top: 25px;
+max-width: 650px;
+}
+
+.ending-div-text>h2  {
+
+   font-weight: bold;
+   color: white;
+   margin-bottom: 10px;
+}
+
+
+.ending-div-text>a   {
+
+   font-family: 'Roboto Slab';
+   color: #0088cc;
+   cursor: pointer;
+   text-align: left;
+   margin-bottom: 100px;
+   font-size: 32px;
+   line-height: 38px;
+
+}
+
+
+
+
+/* ------------------form------------------ */
+
+.form-title{
+   color: white;
+   font-size: large;
+   margin-left:  10px;
+
+}
+
+
+
+.input-form{
+
+   height: 40px;
+   width: 600px;
+   margin-bottom: 20px;
+}
+
+.input-form-messege{
+   
+   width: 600px;
+   height: 200px;
+   margin-bottom:  20px;
+   
+}
+
+.submit-button{
+   width: 90px;  
+   block-size: 40px;
+   background-color: #63ba5b;
+   border: #ffffff;
+   color: #ffffff;
+}
+.submit-button:hover{
+   cursor: pointer;
+   background-color: #15830b;
+}
+
+
+/* -------------------final div------------------- */
+
+
+.final{
+   height: 30px;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   margin-bottom: 50px
+   
+}
+
+.final-left{
+   font-size: 14px;
+   color: white;
+   width: 1080PX;
+}
+.final-right{
+   font-size: 14px;
+   color: white;
+   
+
+}
+.call-us{
+
+   color: #25c017;
+}
+
+
+
+/* +--------------------------media query------------------------- */
+
+
+/* --------------nav------------- */
+@media only screen and (max-width: 1200px) {
+
+.list{
+  
+   display: none;
+
+}
+.nav-menu{
+
+   visibility: visible ;
+
+
+}
+.nav-menu:hover{
+
+   cursor: pointer;
+   color: #25c017;
+   font-size: 35px;
+}
+
+.menu-top{
+   display: flex;
+   justify-content: space-between;
+}
+}
+
+/* ------------------green header----------- */
+
+@media only screen and (max-width: 800px) {
+
+.hmain{
+   display: block;
+}
+
+
+
+}
+
+/* --------------------boxes------------- */
+
+@media only screen and (max-width: 1200px) {
+
+   .grand-parent-div-flex{
+
+      display: block;
+      background-color: white;
+      padding: 20px;
+      justify-content: space-between;
+      min-height: 200px;
+      max-width: 3350px;
+      margin: auto;
+   }
+   
+   .parent-div-flex{
+      background-color: white;
+      max-width: 5000px;
+      max-height: 340px;
+      display: block;
+      padding: 10px;
+      
+   }
+
+ 
+
+   .child-div-flex1{
+      background-color:rgb(187, 64, 64);
+      max-height: 100%;
+      max-width: 100%;
+      margin-bottom: 5px;
+      
+   }
+   .child-div-flex1>img{
+      max-height: 500px;
+      max-width: 500px;
+   }
+   
+   .child-div-flex2{
+   background-color: #3f4d01;
+   min-height: 30px;
+   width: 100%;
+   text-align: center;
+   color: white;
+   }
+
+   .parent-div-flex-with-text{
+      background-color:white;
+      width: 290px;
+      height: 240px;
+      display: block;
+      padding: 10px;
+      flex-direction: column;
+      margin-bottom: 25px;
+   }
+}
+
+
+/* ----------------mehmood------------------- */
+
+@media only screen and (max-width: 1200px) {
+.mehmood-malik-div{
+   min-height: 250px;
+   width: 100%;
+   background-color:white;
+   display: flex;
+   flex-direction: column;
+
+}
+.mehmood-malik-text{
+overflow: scroll;
+
+}
+
+.multi-logos{
+   display: none;
+   }
+
+.ending-div{
+
+display: block;
+
+}
+
+
+.form-title{
+   color: white;
+   font-size: large;
+   margin-left:  10px;
+
+}
+
+
+
+.input-form{
+
+   height: 40px;
+   max-width: 500px;
+   margin-bottom: 20px;
+}
+
+.input-form-messege{
+   
+   max-width: 500px;
+   height: 200px;
+   margin-bottom:  20px;
+   
+}
+.final{
+
+   display: block;
+   margin: 0% auto;
+   min-height: 50px;
+}
+.final-right{
+
+   text-align: center;
+}
 
 }
